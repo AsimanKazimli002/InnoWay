@@ -1,0 +1,422 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-color: rgb(24, 62, 107);
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  align-items: center;
+}
+/* Header start */
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.site-logo img {
+  height: 40px;
+  display: flex;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+.menu ul li {
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+.apply-btn button {
+  border-radius: 8px;
+  background-color: rgb(57, 196, 242);
+  color: white;
+  border: none;
+  font-size: 17px;
+  padding: 16px 32px 15px;
+}
+/* Header end */
+
+/* css part of first part */
+#first-section {
+  background-color: rgb(24, 62, 107);
+}
+.first-part-img {
+  margin: 0 0 0 35px;
+}
+.first-part-img img {
+  height: 580px;
+  border-radius: 50%;
+  padding: 40px;
+}
+.first-part-text {
+  color: white;
+}
+.first-part-text h2 {
+  font-size: 72px;
+}
+.first-part-text p {
+  margin: 12px 0px;
+  font-size: 18px;
+}
+.first-part-btn {
+  margin-top: 10px;
+  display: inline;
+}
+.direction-btn {
+  border-radius: 8px;
+  background-color: rgb(24, 62, 107);
+  color: white;
+  border: 1px solid white;
+  font-size: 17px;
+  padding: 16px 32px 15px;
+}
+
+/* css part of second part */
+#second-section {
+  margin: 90px 0px;
+  padding: 50px 0px;
+}
+.second-part-img img {
+  border-radius: 50%;
+  position: relative;
+}
+.second-part-contact {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  padding: 18px 28px;
+  border-radius: 10px;
+  position: absolute;
+  margin: -60px 30px;
+  font-size: 18px;
+}
+.second-part-icon {
+  background-color: rgb(57, 196, 242);
+  position: absolute;
+  margin: 20px 25px;
+  padding: 10px;
+  font-size: 24px;
+  color: white;
+  border-radius: 50%;
+}
+.second-part-text h2 {
+  color: rgb(24, 62, 107);
+}
+.second-part-text h1 {
+  font-size: 28px;
+  color: rgb(42, 37, 77);
+}
+.second-part-text p {
+  color: rgb(154, 162, 173);
+}
+.about-card {
+  border-color: rgb(57, 196, 242);
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-bottom: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin: 16px 0px;
+}
+.about-card-icon {
+  background-color: rgb(240, 241, 251);
+  padding: 17px;
+  border-radius: 10px;
+  font-size: 20px;
+  align-items: center;
+  align-content: center;
+  height: 28px;
+}
+
+.about-innoway h2,
+h1,
+p {
+  padding: 10px 0px;
+}
+.about-card-text {
+  margin-left: 7px;
+}
+
+/* The css part of the third part */
+#third-section {
+  margin: 120px 0px;
+}
+.col-4 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cards {
+  display: flex;
+}
+.lesson-card {
+  background-color: white;
+  width: 250px;
+  height: 320px;
+  border: 1px solid rgb(231, 233, 254);
+  text-align: center;
+  box-shadow: 1px 1px rgb(231, 233, 254);
+  border-radius: 6px;
+  margin-top: 30px;
+}
+.lesson-card img {
+  height: 250px;
+  border-radius: 60px;
+  position: relative;
+}
+.lesson-card h3 {
+  color: rgb(42, 37, 77);
+}
+
+.lesson-text h2,
+p {
+  display: flex;
+  justify-content: center;
+}
+.lesson-text p {
+  font-size: 36px;
+  color: rgb(42, 37, 77);
+}
+.lesson-text h2 {
+  color: rgb(24, 62, 107);
+}
+
+/* css part of the fourth part */
+#fourth-section {
+  padding: 100px 0px;
+}
+.course-text h2 {
+  margin: 40px 0px;
+  color: rgb(24, 62, 107);
+  justify-content: center;
+  display: flex;
+}
+.frontend-card {
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 350px;
+  margin: 50px 0px;
+  padding: 22px;
+  position: relative;
+}
+.two-hundred-hour {
+  background-color: rgb(24, 62, 107);
+  width: 65px;
+  border-radius: 6px;
+  padding: 6px;
+  color: white;
+}
+.seven-lesson {
+  color: rgb(149, 224, 249);
+  margin-top: 7px;
+}
+.frontend-pr {
+  color: rgb(42, 37, 77);
+  font-size: 20px;
+  margin: 8px 0px;
+}
+.teacher-box {
+  background-color: rgb(241, 242, 253);
+  display: flex;
+  margin: 15px 0px;
+  border-radius: 8px;
+}
+.teacher-box-text {
+  align-content: center;
+}
+.teacher-box-text h4 {
+  font-size: 18px;
+}
+.teacher-box-text p {
+  padding: 1px 0px;
+}
+.teacher-box img {
+  border-radius: 50%;
+  height: 50px;
+  margin: 4px;
+}
+.frontend-btn {
+  display: flex;
+  justify-content: center;
+}
+.frontend-btn button {
+  border-radius: 8px;
+  background-color: rgb(57, 196, 242);
+  color: white;
+  border: none;
+  font-size: 17px;
+  padding: 16px 32px 15px;
+}
+.absolute-img-card {
+  position: absolute;
+  left: 220px;
+  margin-top: -90px;
+}
+.absolute-img-card img {
+  height: 150px;
+  border-radius: 50%;
+}
+/* css part of the fifth part */
+#fifth-section {
+  margin: 90px 0px;
+}
+.feedback {
+  width: 1200px;
+  border: 1px solid rgb(255, 255, 255);
+  
+}
+.icon {
+  color: rgb(57, 197, 243);
+  font-size: 36px;
+}
+.author {
+  display: flex;
+  margin: 10px 0px;
+}
+.author-img img {
+  height: 50px;
+  border-radius: 50%;
+  margin: 0px 7px;
+}
+
+/* css part of the sixth part */
+#sixth-section {
+  margin: 120px 0px;
+}
+.th-h {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: rgb(24, 62, 107);
+}
+.th-pg {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  color: rgb(42, 37, 77);
+}
+.blue {
+  border-radius: 0% 0% 50% 50%;
+  height: 280px;
+  background-color: rgb(57, 197, 243);
+  width: 320px;
+  position: relative;
+  margin-top: 200px;
+}
+.frontend-teacher img {
+  height: 400px;
+  position: absolute;
+  border-radius: 50%;
+  margin-top: -150px;
+  margin-left: 25px;
+}
+
+/* css part of the seventh part */
+#seventh-section{
+  margin: 90px 0px;
+  padding: 50px 0px;
+}
+.last-blog, .development{
+    display: flex;
+    justify-content: center;
+}
+.last-blog{
+  font-size: 20px;
+}
+.development p{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.development-cards{
+display: flex;
+width: 1180px;
+border: 1px solid gray;
+border-radius: 9px;
+}
+.development-cards-img img{
+    height: 420px;
+    border-radius: 9px 0px 0px 9px;
+}
+.development-pg{
+  background-color:rgb(24,62,107);
+  color: white;
+  font-size: 16px;
+  width: 100px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 80px;
+  justify-content: center;
+}
+.development-text{
+  height: 150px;
+}
+.development-ht{
+  color:  rgb(42,37,77);
+  font-size: 28px;
+  margin: 20px;
+}
+.back-dev img{
+  height: 55px;
+  border-radius: 50%;
+  width: 45px;
+  margin: 10px;
+}
+.back-dev{
+  background-color: rgb(241, 242, 253);
+  display: flex;
+  margin: 15px 15px;
+  border-radius: 8px;
+  align-items: center;
+
+}
+
+/* css part of the eighth part */
+#eighth-section{
+  margin: 110px 0px;
+}
+.partners-ht{
+  display: flex;
+  justify-content: center;
+  color: rgb(24,62,107);
+  font-size: 18px;
+}
+.partners-p{
+  display: flex;
+  justify-content: center;
+  color: rgb(42,37,77);
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.partners-img{
+  border: 1px solid rgb(162, 160, 160);
+  width: 290px;
+  border-radius: 5px;
+}
+.partners-img img{
+  height: 158px;
+}
+
+/* footer section in css */
+#footer{
+  padding: 15px;
+  background-color: rgb(31,25,68);
+  margin-bottom: 0px;
+}
+#footer span{
+  color: white;
+  font-size: 18px;
+}
+.footer-icon{
+  justify-content: end;
+  color: rgb(245,112,5);
+  font-size: 20px;
+ display: flex;
+ gap: 7px;
+}
